@@ -59,7 +59,7 @@ The bot responds to commands starting with a '!'
   
   > E.G.: `!resume`
  
- - stop
+- stop
   
   Disconnects from voice channel
   
