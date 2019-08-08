@@ -29,17 +29,38 @@ The bot responds to commands starting with a '!'
   Responds in chat with a list of all the individual random numbers and the total
   
   > E.G.: `!roll 1d20`
-
-- setMusic
-
-  Creates a text-channel \[hooman-music\] to listen for music commands in
+- join
   
-  Music commands can *only* be played in this channel
+  Joins voice channel of user
   
-  > E.G.: `!setMusic`
-  
- - play \<youtube URL\>
+  > E.G.: `!join`
  
-   Joins voice channel of user, creates music player, and plays audio of youtube video
-   
-   >  E.G.: `!play https://www.youtube.com/`
+- move
+  
+  Moves to voice channel of user
+  
+  > E.G.: `!move`
+  
+- play \<youtube URL\>
+  
+  Downloads youtube video audio and plays it
+  
+  >  E.G.: `!play https://www.youtube.com/`
+
+- pause
+  
+  Pauses audio being played
+  
+  > E.G.: `!pause`
+
+- resume
+  
+  Resumes paused audio
+  
+  > E.G.: `!resume`
+ 
+ - stop
+  
+  Disconnects from voice channel
+  
+  > E.G.: `!stop`
